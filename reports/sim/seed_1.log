@@ -1,0 +1,20 @@
+Command: ./simv +seed=1 +ntb_random_seed=1 +num_txns=2000 -cm line+cond+fsm+tgl -cm_name seed_1 -l logs/seed_1.log
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP2-4_Full64; Runtime version W-2024.09-SP2-4_Full64;  Nov 25 16:53 2026
+INFO seed=1 num_txns=2000
+RESULT seed=1 txns=2000 reads=990 writes=1010 hits=1145 misses=627 empties=228 refreshes=61 collisions=45 checked=990 mismatches=0 timing_errors=0 protocol_errors=0 timing_checks=7613 cycles=18403
+BANKS 517 519 482 482
+LATENCY hit=6.00 miss=12.12 empty=9.00
+COVERAGE req=100.00 ref=100.00
+TEST PASSED
+$finish called from file "tb/tb_top.sv", line 342.
+$finish at simulation time            184035000
+
+---------------------------------------------------------------------------
+VCS Coverage Metrics: during simulation line, cond, FSM, tgl was monitored
+---------------------------------------------------------------------------
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 184035000 ps
+CPU Time:      0.820 seconds;       Data structure size:   0.0Mb
+Wed Nov 25 16:53:24 2026

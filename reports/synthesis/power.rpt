@@ -1,0 +1,58 @@
+Loading db file '~/ECEN468/Lab7/src1/osu018_stdcells.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : dram_ctrl
+Version: V-2023.12-SP1
+Date   : Wed Nov 25 16:54:34 2026
+****************************************
+
+
+Library(s) Used:
+
+    osu018_stdcells (File: ~/ECEN468/Lab7/src1/osu018_stdcells.db)
+
+
+Operating Conditions: typical   Library: osu018_stdcells
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 1.8  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   3.1738 mW   (91%)
+  Net Switching Power  = 315.7922 uW    (9%)
+                         ---------
+Total Dynamic Power    =   3.4896 mW  (100%)
+
+Cell Leakage Power     =  95.9197 nW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      2.8437            0.0000            0.0000            2.8437  (  81.49%)  i
+register           0.1418        3.3582e-02           49.0768            0.1754  (   5.03%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational      0.1884            0.2822           46.8429            0.4707  (  13.49%)
+--------------------------------------------------------------------------------------------------
+Total              3.1738 mW         0.3158 mW        95.9197 nW         3.4897 mW
+1

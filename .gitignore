@@ -1,0 +1,26 @@
+# VCS
+simv*
+csrc/
+ucli.key
+vc_hdrs.h
+cov_report/
+cm.log
+.fsm.sch.verilog.xml
+*.vcd
+*.vpd
+
+# run output
+logs/
+results/
+
+# Design Compiler (copies of the reports are in reports/)
+syn/work/
+syn/reports/
+syn/netlist/
+syn/sdf/
+syn/*.svf
+syn/command.log
+syn/synth.log
+
+# course library files
+*.db

@@ -1,0 +1,31 @@
+ 
+****************************************
+Report : area
+Design : dram_ctrl
+Version: V-2023.12-SP1
+Date   : Wed Nov 25 16:54:34 2026
+****************************************
+
+Information: Updating design information... (UID-85)
+Library(s) Used:
+
+    osu018_stdcells (File: ~/ECEN468/Lab7/src1/osu018_stdcells.db)
+
+Number of ports:                          133
+Number of nets:                          1402
+Number of cells:                         1321
+Number of combinational cells:            966
+Number of sequential cells:               177
+Number of macros/black boxes:               0
+Number of buf/inv:                        219
+Number of references:                      17
+
+Combinational area:              25016.000000
+Buf/Inv area:                     3568.000000
+Noncombinational area:           31152.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 56168.000000
+Total area:                 undefined
+1
